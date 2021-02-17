@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="x-UA-Compatible" content="Welcome to the mos extraordinary hotel in Boston Massachusetts">
+	<meta name="keywords" content="hotel, boston hotel, new england hotel">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://kit.fontawesome.com/0cce75bbbc.js" crossorigin="anonymous"></script>
+	<title>About | Hotel</title>
+</head>
+<body>
+	<header id="header">
+		<div class="container">
+			<nav id="navbar">
+				<h1 class="logo"><a href="index.html">Copycat</a></h1>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a class="current" href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<section id="contact-form" class="py-3">
+		<div class="container">
+			<h1 class="l-heading"><span class="text-primary">Contact</span> Us</h1>
+			<p>Please fill out the form below to contact us</p>
+			<form action="process.php">
+				<div class="form-group">
+					<label for="name">Name</label>
+					<input type="text" name="name" id="name" placeholder="Input your name">
+				</div>
+				<div class="form-group">
+					<label for="email">Email</label>
+					<input type="email" name="email" id="email" placeholder="Input your email address">
+				</div>
+				<div class="form-group">
+					<label for="message">Message</label>
+					<textarea name="message" id="message" placeholder="Type your message"></textarea>
+				</div>
+				<button type="submit" class="btn">Submit</button>
+			</form>
+		</div>
+	</section>
+
+	<section id="contact-info" class="bg-dark">
+		<div class="container">
+			<div class="box">
+				<i class="fas fa-hotel fa-4x"></i>
+				<h3>Location</h3>
+				<p>Jalan Citra Raya K.9 No.16, Tambun Selatan, Kab.Bekasi.</p>
+			</div>
+			<div class="box">
+				<i class="fas fa-phone fa-4x"></i>
+				<h3>Phone Number</h3>
+				<p>(+62)89504550631</p>
+			</div>
+			<div class="box">
+				<i class="fas fa-envelope fa-4x"></i>
+				<h3>Email Address</h3>
+				<p>raihanramadhan@bukaka.com</p>
+			</div>
+		</div>
+	</section>
+	<footer id="main-footer">
+		<p>Hotel Copycat &copy 2021, All Right Reserverd </p>
+	</footer>
+</body>
+</html>

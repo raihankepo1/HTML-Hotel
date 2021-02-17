@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="x-UA-Compatible" content="Welcome to the mos extraordinary hotel in Boston Massachusetts">
+	<meta name="keywords" content="hotel, boston hotel, new england hotel">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://kit.fontawesome.com/0cce75bbbc.js" crossorigin="anonymous"></script>
+	<title>About | Hotel</title>
+</head>
+<body>
+	<header id="header">
+		<div class="container">
+			<nav id="navbar">
+				<h1 class="logo"><a href="index.html">Copycat</a></h1>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a class="current" href="about.html">About</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<section id="about-info" class="bg-light py-3">
+		<div class="container">
+			<div class="info-left">
+				<h1 class ="l-heading"><span class ="text-primary">About </span> Hotel Copycat</h1>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi cum obcaecati repudiandae excepturi, eius, qui dicta, illo aliquam tempore hic maiores quasi, reprehenderit atque veritatis quod! Quasi, maiores asperiores facilis!</p>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi sunt laboriosam ratione facere blanditiis expedita rerum exercitationem nobis facilis fuga quisquam</p>
+			</div>
+			<div class="info-right">
+				<img src="photo-2.jpg" alt="hotel">
+			</div>
+		</div>
+	</section>
+
+	<section id="testimonials" class="py-3">
+		<div class="container">
+			<h2 class="l-heading">Testimonial</h2>
+			<div class="testimonial-1 bg-primary">
+				<img src="tsabit.jpg" alt="tsabit">
+				<h2>Tsabit</h2>
+				<div class="clr"></div>
+				<p>Gua semenjak rakit pc jadi maen fb lagi buat nyari barang murah wkwk</p>
+			</div>
+		</div>
+		<div class="container">
+			<div class="testimonial-1 bg-primary">
+				<img src="ceuealbert.jpg" alt="Ceuealbert">
+				<h2>Albert</h2>
+				<div class="clr"></div>
+				<p>Nama saya Albert, saya adalah seorang livestreamer professional gaming. Saya mempunyai Channel Livestreaming yaitu di platform Youtube, NimoTV, Twitch. Nama Channel saya di semua platform yaitu TOD-GAMING</p>
+			</div>
+		</div>
+	</section>
+	<div id="main-footer">
+			<p>Hotel Copycat &copy 2021, All Right Reserverd </p>
+	</div>
+</body>
+</html>

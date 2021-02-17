@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="x-UA-Compatible" content="Welcome to the mos extraordinary hotel in Boston Massachusetts">
+	<meta name="keywords" content="hotel, boston hotel, new england hotel">
+	<script src="https://kit.fontawesome.com/0cce75bbbc.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title> Hotel | Copycat </title>
+</head>
+<body>
+	<header id="header">
+		<div class="container">
+			<nav id="navbar">
+				<h1 class="logo"><a href="index.html">Copycat</a></h1>
+				<ul>
+					<li><a class="current" href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<div id="article">
+		<div class="container">
+			<div class="content">
+				<h1><span class="text-primary">Enjoy </span> Your Stay</h1>
+				<p class="lead">Lorem ipsum dolor, sit amet, consectetur adipisicing elit. Similique tempore cum distinctio laudantium est tenetur amet nulla, rerum earum, vel reiciendis repellendus sunt ducimus nostrum odio. Nobis eveniet dolores nesciunt.</p>
+				<a class="btn" href="about.html">About Our Hotel</a>
+			</div>
+		</div>
+	</div>
+
+	<section id="home-info" class="bg-dark">
+		<div class="info-img"></div>
+		<div class="info-content">
+			<h2><span class="text-primary">The History</span> Of Our Hotel</h2>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus perspiciatis inventore explicabo odio, praesentium, quod non amet similique, quo optio error ipsum culpa voluptas cupiditate accusamus quis voluptatum dolor voluptatem.</p>
+			<a href="about.html" class="btn btn-light">Read More</a>
+		</div>
+	</section>
+
+	<section class="features">
+		<div class="box bg-light">
+			<i class="fas fa-hotel fa-4x"></i>
+			<h3>Service Hotel</h3>
+			<p>Lorem ipsum dolor, sit amet, consectetur adipisicing elit. Officiis voluptatum reiciendis, ex amet. Possimus quisquam perferendis exercitationem quis suscipit magnam ut expedita praesentium voluptatibus nihil, iure nostrum inventore odio voluptatem.</p>
+		</div>
+		<div class="box bg-primary">
+			<i class="fas fa-utensils fa-4x"></i>
+			<h3>Free Meals</h3>
+			<p>Lorem ipsum dolor sit, amet consectetur adipisicing, elit. Vero ipsa laborum ipsam, reiciendis corporis cumque ad, maxime! Nihil odio, possimus architecto magni sint iusto facere illum magnam voluptatibus, autem minima!</p>
+		</div>
+		<div class="box bg-light">
+			<i class="fas fa-dumbbell fa-4x"></i>
+			<h3>Fitness Room</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur voluptatibus temporibus earum, soluta, ipsa ipsum corporis iste, est laudantium quo vitae, asperiores amet magni eum culpa rem maxime sed ratione?</p>
+		</div>
+	</section>
+	<div class="clr"></div>
+	<div id="main-footer">
+		<p>Hotel Copycat &copy 2021, All Right Reserverd </p>
+	</div>
+	
+</body>
+</html>
